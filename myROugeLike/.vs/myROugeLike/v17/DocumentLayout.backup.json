@@ -3,15 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\myROugeLike\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|c:\\users\\johnn\\documents\\github\\crossplatformgame\\myrougelike\\assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|c:\\users\\johnn\\documents\\github\\crossplatformgame\\myrougelike\\assets\\damiansscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\damiansscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\myROugeLike\\assets\\rigid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|c:\\users\\johnn\\documents\\github\\crossplatformgame\\myrougelike\\assets\\rigid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\rigid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,32 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\myROugeLike\\Assets\\Script\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Movement.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\myROugeLike\\Assets\\Script\\Movement.cs",
-              "RelativeToolTip": "Assets\\Script\\Movement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T15:44:04.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "damiansScript.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\myROugeLike\\Assets\\damiansScript.cs",
               "RelativeDocumentMoniker": "Assets\\damiansScript.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\myROugeLike\\Assets\\damiansScript.cs",
-              "RelativeToolTip": "Assets\\damiansScript.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\myROugeLike\\Assets\\damiansScript.cs*",
+              "RelativeToolTip": "Assets\\damiansScript.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T19:40:36.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "rigid.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\myROugeLike\\Assets\\rigid.cs",
               "RelativeDocumentMoniker": "Assets\\rigid.cs",
@@ -64,7 +47,8 @@
               "RelativeToolTip": "Assets\\rigid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T15:59:52.374Z"
+              "WhenOpened": "2026-01-14T15:59:52.374Z",
+              "EditorCaption": ""
             }
           ]
         }
