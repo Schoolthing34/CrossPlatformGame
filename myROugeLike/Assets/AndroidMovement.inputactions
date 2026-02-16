@@ -1,0 +1,34 @@
+{
+    "name": "AndroidMovement",
+    "maps": [
+        {
+            "name": "MovementAndroid",
+            "id": "26141ff5-b281-4f40-a9fa-caa2b582144b",
+            "actions": [
+                {
+                    "name": "joystick",
+                    "type": "Value",
+                    "id": "c90b257b-ecea-4468-abef-9e90608d94aa",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2e22e31a-6643-4a86-80aa-9917af61f093",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "joystick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
