@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 5312922649431892045}
   - component: {fileID: 7371992726281013526}
   - component: {fileID: -2506252134162185084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MoonEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ MonoBehaviour:
   MovementNumbers: {fileID: 0}
   Offset: 180
   ShotTimer: 5
-  SHotDelayTimer: 1
+  SHotDelayTimer: 0.5
   ExcistantTimer: 1
   ShotFired: 0
   death: 0
@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 7511277675828406912}
   - component: {fileID: 1792618453934166614}
   - component: {fileID: 648809925236169836}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Beem
   m_TagString: Enemy
   m_Icon: {fileID: 0}

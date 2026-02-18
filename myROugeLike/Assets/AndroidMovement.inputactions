@@ -28,6 +28,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "ShootButton",
+            "id": "976ba525-504a-46d8-8d58-2a2ba9e00dc2",
+            "actions": [
+                {
+                    "name": "AttackTap",
+                    "type": "Button",
+                    "id": "2731b5fd-54cd-4be2-9e80-9681f71bd09c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "19d9527c-fe91-4f6f-99f0-33caad2375cc",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AttackTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

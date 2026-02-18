@@ -8,6 +8,7 @@ TagManager:
   - Projectiles
   - Enemy
   - Bullet
+  - EnemyProjectile
   layers:
   - Default
   - TransparentFX
@@ -15,12 +16,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - EnemyProjectile
+  - Shield
+  - Lasers
+  - PlayerProjectile
   - 
   - 
   - 

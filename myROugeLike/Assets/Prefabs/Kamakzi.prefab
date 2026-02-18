@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6922255273630700652}
   - component: {fileID: 8740591820136263523}
   - component: {fileID: 7628264325277091844}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Kamakzi
   m_TagString: Enemy
   m_Icon: {fileID: 0}
