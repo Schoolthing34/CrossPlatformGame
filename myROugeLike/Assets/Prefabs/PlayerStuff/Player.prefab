@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5363953196100115490}
   - component: {fileID: 3144041799966933923}
   - component: {fileID: 4072409578592337553}
+  - component: {fileID: 4340081398410288994}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -103,10 +104,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BasicBullet: {fileID: 1172340267043012580, guid: 496224af5e8a0594bb6f0834f3d22fd0, type: 3}
+  MissilePrefab: {fileID: 9156446374926592165, guid: 92280c2b44807a446bc33e1ff4e13d10, type: 3}
   AmountofBullet: 0
   shootDelayTimer: 0.5
   BulletSpeed: 1
   CountingTimer: 0
+  PickupStats: {fileID: 4340081398410288994}
+  Shield: {fileID: 4561738568820349248, guid: 100c4bdded009e6408a3fce3504e1ca0, type: 3}
 --- !u!114 &914610141212467653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,6 +143,7 @@ MonoBehaviour:
   AndroidButtons: {fileID: 8568870368624602037}
   UserWantsToShoot: 0
   PlayerGun: {fileID: 503261650798343399}
+  Davey: 12
 --- !u!114 &8568870368624602037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,3 +258,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac30bcffc8b5b17469403264c6e5e6ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4340081398410288994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965177216875220913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c820435f41b59594d9feca30619de272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MissileCount: 0
+  ShieldOn: 0
+  DoubleShot: 0

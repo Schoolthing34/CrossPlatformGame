@@ -60,6 +60,8 @@ public class Movement : MonoBehaviour
 
     public Gun PlayerGun;
     public int Davey = 12;
+
+    
     //Bullet Stats
    // public float BulletTimer = 0.5f;
 
@@ -261,9 +263,13 @@ public class Movement : MonoBehaviour
             //Debug.Log("Hey shooting1");
             Shoot();
         }//
+        
+        if (UnityEngine.Input.GetKeyDown("k"))
+          {
+             ShootMissile();
+          }
+        
 
-        
-        
 
     }
 
@@ -271,5 +277,12 @@ public class Movement : MonoBehaviour
     public void Shoot()
     {
         PlayerGun.Shoot();
+    }
+
+    public void ShootMissile()
+    {
+        
+        PlayerGun.ShootMissile();
+
     }
 }

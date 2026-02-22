@@ -6,6 +6,33 @@ public class PickupComponant : MonoBehaviour
 {
 
 
+
+    [SerializeField]
+    public int MissileCount;
+
+    [SerializeField]
+   public bool ShieldOn;
+    [SerializeField]
+    public bool DoubleShot;
+    private float DoubleShotTimer = 5.0f;
+    private float ShieldTimer = 5.0f;
+    private float STimer = 0.0f;
+    private float DTimer = 0.0f;
+    public bool Cheats = false;
+    public void DoubleShotTrue()
+    {
+        DoubleShot = true;
+    }
+    public void ActivateShield()
+    {
+        ShieldOn = true;
+    }
+
+    public void AddMissile()
+    {
+        MissileCount++;
+
+    }
     //needs to know what one it is
     //duration if any
     
@@ -35,6 +62,45 @@ public class PickupComponant : MonoBehaviour
         }
     
     }
+
+
+
+    private void Update()
+    {
+        if(Cheats)
+        {
+            MissileCount = 999999;
+            DoubleShot = true;
+            ShieldOn = true;
+        }
+        if(DoubleShot)
+        {
+            DTimer += Time.deltaTime;
+
+            if(DTimer>DoubleShotTimer)
+            {
+                DoubleShot = false;
+                DTimer = 0;
+            }
+
+
+        }
+
+        if (ShieldOn)
+        {
+            STimer += Time.deltaTime;
+
+            if (STimer > DoubleShotTimer)
+            {
+                ShieldOn = false;
+                STimer = 0;
+            }
+
+
+        }
+
+    }
+
 
     void Remove()
     {

@@ -81,12 +81,44 @@ public class CollisionManager : MonoBehaviour
              {
                // Debug.Log("Hey enemy hit");
                 int damage = other.GetComponent<BulletStat>().damage;
-                gameObject.SendMessage("Damage", damage);
+                if (this.gameObject != null)
+                {
+                    gameObject.SendMessage("Damage", damage,SendMessageOptions.DontRequireReceiver);
+                }
             }
             
             Destroy(other.gameObject);
         }
-        
+        else if(other.tag=="Missile")
+        {
+
+            if ((this.name != "Beem") && (this.gameObject.layer != 10))
+            {
+                other.gameObject.GetComponent<MissileStat>().Explode();
+
+                int damage = other.GetComponent<BulletStat>().damage;
+                if (this.gameObject != null)
+                {
+                    gameObject.SendMessage("Damage", damage, SendMessageOptions.DontRequireReceiver);
+                }
+                //Destroy(this.gameObject);
+            }
+            
+            
+        }
+        else if (other.tag == "Explosion")
+        {
+            int damage = 5;
+            gameObject.SendMessage("Damage", damage, SendMessageOptions.DontRequireReceiver);
+
+        }
+        else if (other.tag == "PlayerShield")
+        {
+            int damage = 3;
+            gameObject.SendMessage("Damage", damage, SendMessageOptions.DontRequireReceiver);
+            Destroy(other.gameObject);
+        }
+
 
     }
     public void PlayerCollision(GameObject HitObject)
@@ -108,7 +140,7 @@ public class CollisionManager : MonoBehaviour
 
             Destroy(this.gameObject);
 
-            SceneManager.LoadScene("LevelOne");
+            SceneManager.LoadScene("IntroMenuScene");
 
         }
         else if(HitObject.tag =="EnemyProjectile")
@@ -124,6 +156,24 @@ public class CollisionManager : MonoBehaviour
             Destroy(this.gameObject);
 
             SceneManager.LoadScene("IntroMenuScene");
+        }
+        else if(HitObject.tag=="PickUp")
+        {
+            if(HitObject.name == "MissilePickup")
+            {
+                gameObject.SendMessage("AddMissile");
+                Destroy(HitObject.gameObject);
+            }
+            else if (HitObject.name == "ShieldPickUp")
+            {
+                gameObject.SendMessage("ActivateShield");
+                Destroy(HitObject.gameObject);
+            }
+            else if (HitObject.name == "DoubleShotPickUp")
+            {
+                gameObject.SendMessage("DoubleShotTrue");
+                Destroy(HitObject.gameObject);
+            }
         }
 
     }

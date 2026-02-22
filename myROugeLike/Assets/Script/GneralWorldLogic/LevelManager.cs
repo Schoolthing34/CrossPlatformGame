@@ -36,6 +36,9 @@ public class LevelManager : MonoBehaviour
     int MaxShieldAllowed=3;
     int ShieldSpawned = 0;
     GameObject SpeechManager;
+    public GameObject Button1;
+    public GameObject Button2;
+    bool LeavingLevel;
     private void Start()
     {
         if(SceneManager.GetActiveScene().name=="LevelOne")
@@ -60,11 +63,14 @@ public class LevelManager : MonoBehaviour
     }
     public void StartLevel(int Level,int LevelTimer)
     {
+        Button1.SetActive(false);
+        Button2.SetActive(false);
         LevelOn = 0.00f;
         CurrentLevel = Level;
         this.LevelTimer = LevelTimer;
         CurrentWaveSPawned = 0;
         LevelOn = 0;
+        LeavingLevel = false;
         if (TestingBoss)
         {
             ActualWave = 10;
@@ -167,14 +173,12 @@ public class LevelManager : MonoBehaviour
                 WaveDead = true;
                 if(BossSpawned)
                 {
-                    if(SceneManager.GetActiveScene().name=="LevelOne")
-                    {
-                        SceneManager.LoadScene("LevelTwo");
-                    }
-                    else
-                    {
-                        SceneManager.LoadScene("IntroMenuScene");
-                    }
+
+                    //by this point the boos is dead so lets just do some things
+
+
+                    StartEndingLevelCutscene();
+                    
                     
                    // Application.LoadLevel("IntroMenuScene");
                 }
@@ -185,7 +189,60 @@ public class LevelManager : MonoBehaviour
             LevelOn += Time.deltaTime;
         }
     }
+    
 
+    private void StartEndingLevelCutscene()
+    {
+        GameObject Speech = GameObject.Find("SpeechManager");
+        string Text1 = " ";
+        if (SceneManager.GetActiveScene().name == "LevelOne")
+        {
+             Text1 = "Hello Hello, Well Done Commander you have broken through \nthe evil aliens front lines, you will now need ot enter their atmasphere\n be careful the defences will only get more tougher from here \n We Believe in you are our only hope to avenge what they did  ";
+
+        }
+        else if (SceneManager.GetActiveScene().name == "LevelTwo")
+        {
+            Text1 = "Hello Hello, Well Done Commander you have broken through \nthe evil aliens front lines, you will now need ot enter their atmasphere\n be careful the defences will only get more tougher from here \n We Believe in you are our only hope to avenge what they did  ";
+
+        }
+        else if (SceneManager.GetActiveScene().name == "LevelThree")
+        {
+            Text1 = "Hello Hello, Well Done Commander you have broken through \nthe evil aliens front lines, you will now need ot enter their atmasphere\n be careful the defences will only get more tougher from here \n We Believe in you are our only hope to avenge what they did  ";
+
+        }
+
+        Speech.GetComponent<DialogueManager>().UpdateMiddleText(Text1);
+        
+            Button1.SetActive(true);
+            Button2.SetActive(true);
+
+
+            
+        
+    }
+
+    public void NextLevelButtonPressed()
+    {
+        if (SceneManager.GetActiveScene().name == "LevelOne")
+        {
+            SceneManager.LoadScene("LevelTwo");
+        }
+        else if (SceneManager.GetActiveScene().name == "LevelTwo")
+        {
+            SceneManager.LoadScene("LevelThree");
+        }
+        else if(SceneManager.GetActiveScene().name == "LevelThree")
+        {
+            SceneManager.LoadScene("IntroMenuScene");
+        }
+    }
+
+    public void ExitButtonPressed()
+    {
+
+        Destroy(GameObject.Find("Player"));
+        SceneManager.LoadScene("IntroMenuScene");
+    }
     private void SpawnBoss()
     {
         SpeechManager.GetComponent<DialogueManager>().UpdateLeftText("BossTime : " + BossThisLevel.name);

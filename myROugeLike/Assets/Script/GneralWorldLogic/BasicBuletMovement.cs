@@ -27,7 +27,7 @@ public class BasicBulletMovement : MonoBehaviour
     }
 
     
-    private void Update()
+   public virtual void Update()
     {
         BulletMovement();
     }
@@ -35,5 +35,10 @@ public class BasicBulletMovement : MonoBehaviour
     private void BulletMovement()
     {
         this.transform.position += Direction.normalized*speed*Time.deltaTime;
+    }
+
+    private void OnDestroy()
+    {
+        Destroy(this.gameObject);
     }
 }
