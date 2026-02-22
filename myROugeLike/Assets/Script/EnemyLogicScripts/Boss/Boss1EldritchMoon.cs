@@ -43,7 +43,7 @@ public class Boss1EldritchMoon : BaseEnemy
 
     private float Counter = 0;
 
-    private float CoolDownTime = 4;
+    private float CoolDownTime = 1;
     private bool OnCooldown = false;
     // Start is called before the first frame update
     void Start()
@@ -54,13 +54,19 @@ public class Boss1EldritchMoon : BaseEnemy
             Debug.LogError("Cant get the enemylogic componant");
 
         }
-        //Spawn(new Vector3(1, 1, 0), 0, 0);
+        if (Testing)
+        {
+            Spawn(new Vector3(1, 1, 0), 0, 0);
+        }
     }
 
 
     public override void Spawn(Vector3 StartTarget, float Xdirection, float YDirection, int speed = 4, int Heath = 20, int rank = 10)
     {
-        Start();
+        if (!Testing)
+        { 
+                Start();
+          }
         this.transform.position=StartTarget;
         base.EnemyHealth = Heath;
         ShootLasers = false;
@@ -193,13 +199,14 @@ public class Boss1EldritchMoon : BaseEnemy
         }
         else if(ShotLasers)
         {
+            float RotateDistance = 0.075f;
            if(Dir%2==0)
             {
-                transform.Rotate(0, 0, 0.05f);
+                transform.Rotate(0, 0, RotateDistance);
             }
            else
             {
-                transform.Rotate(0, 0, -0.05f);
+                transform.Rotate(0, 0, -RotateDistance);
             }
           //  transform.Rotate(0,0,0.05f);
 

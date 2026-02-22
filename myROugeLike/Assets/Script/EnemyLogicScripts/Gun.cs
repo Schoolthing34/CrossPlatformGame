@@ -72,17 +72,17 @@ public class Gun : MonoBehaviour
 
         if (Bullets.Count > 0)
         {
-            for (int i = Bullets.Count-1; i > -1; i--)
+            for (int i = Bullets.Count - 1; i > -1; i--)
             {
                 //Vector3.Distance(this.transform.position ,Bullets[i].gameObject.transform.position)
-                if (Bullets[i]==null)
+                if (Bullets[i] == null)
                 {
                     Bullets.RemoveAt(i);
                     break;
                 }
                 else if (Vector3.Distance(this.transform.position, Bullets[i].gameObject.transform.position) > 20)
                 {
-                   // GameObject* DeadBullet=Bullets[i];
+                    // GameObject* DeadBullet=Bullets[i];
 
                     Destroy(Bullets[i].gameObject);
                     Bullets.RemoveAt(i);

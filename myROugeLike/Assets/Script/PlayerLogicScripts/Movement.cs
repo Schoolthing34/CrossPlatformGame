@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Windows;
 
@@ -57,13 +59,15 @@ public class Movement : MonoBehaviour
     public bool  UserWantsToShoot=false;
 
     public Gun PlayerGun;
-
+    public int Davey = 12;
     //Bullet Stats
    // public float BulletTimer = 0.5f;
 
     // Start is called before the first frame update
     void Start()
     {
+
+        DontDestroyOnLoad(this.gameObject);
         if (Application.platform == RuntimePlatform.Android)
         {
             AndroidUser = true;
@@ -80,6 +84,11 @@ public class Movement : MonoBehaviour
         }
        
          rb = GetComponent<Rigidbody2D>();
+
+        if (SceneManager.GetActiveScene().name == "LevelThree")
+        {
+            Davey = 15;
+        }
     }
 
     public void AndroidUserShooting()

@@ -31,6 +31,11 @@ public class LevelManager : MonoBehaviour
     bool BossSpawned;
     //enemy stuff
     int MaxNumAllowed,MinNumAllowed;
+
+    public bool TestingBoss = false;
+    int MaxShieldAllowed=3;
+    int ShieldSpawned = 0;
+    GameObject SpeechManager;
     private void Start()
     {
         if(SceneManager.GetActiveScene().name=="LevelOne")
@@ -45,7 +50,13 @@ public class LevelManager : MonoBehaviour
         {
             StartLevel(3, 180);
         }
-        
+
+        SpeechManager = GameObject.Find("SpeechManager");
+       // if(SpeechManager==null)
+        //{
+        //    Debug.LogError("Omg im losing my fuckign mind");
+        //}
+       // SpeechManager.GetComponent<DialogueManager>().UpdateLeftText("Wave: "+ActualWave);
     }
     public void StartLevel(int Level,int LevelTimer)
     {
@@ -54,7 +65,14 @@ public class LevelManager : MonoBehaviour
         this.LevelTimer = LevelTimer;
         CurrentWaveSPawned = 0;
         LevelOn = 0;
-        ActualWave = 0;
+        if (TestingBoss)
+        {
+            ActualWave = 10;
+        }
+        else
+        {
+            ActualWave =0;
+        }
         WaveDead = true;
         BossSpawned = false;
         switch(CurrentLevel)
@@ -70,7 +88,7 @@ public class LevelManager : MonoBehaviour
             case 2:
                 WaveTimer = 1;
                 WaveAmount = 10;
-                MinNumAllowed = 3;
+                MinNumAllowed = 1;
                 MaxNumAllowed = 4;
                 break;
             case 3:
@@ -83,6 +101,8 @@ public class LevelManager : MonoBehaviour
                 break;
 
         }
+
+
         WaveOn = true;
     }
 
@@ -132,16 +152,14 @@ public class LevelManager : MonoBehaviour
 
                     if (ActiveEnemies[i]==null)
                     {
-                        ActiveEnemies.RemoveAt(i);
+                        Destroy(ActiveEnemies[i].gameObject);
+                        ActiveEnemies.Remove(ActiveEnemies[i]);
                     }
                     else if (ActiveEnemies[i].activeSelf)
                     {
                         check = false;
                     }
-                    else
-                    {
-                        ActiveEnemies.RemoveAt(i);
-                    }
+                  
                 }
             }
            if(check)
@@ -149,7 +167,15 @@ public class LevelManager : MonoBehaviour
                 WaveDead = true;
                 if(BossSpawned)
                 {
-                    SceneManager.LoadScene("IntroMenuScene");
+                    if(SceneManager.GetActiveScene().name=="LevelOne")
+                    {
+                        SceneManager.LoadScene("LevelTwo");
+                    }
+                    else
+                    {
+                        SceneManager.LoadScene("IntroMenuScene");
+                    }
+                    
                    // Application.LoadLevel("IntroMenuScene");
                 }
             }
@@ -162,9 +188,24 @@ public class LevelManager : MonoBehaviour
 
     private void SpawnBoss()
     {
-        GameObject Boss=Instantiate(BossThisLevel);
+        SpeechManager.GetComponent<DialogueManager>().UpdateLeftText("BossTime : " + BossThisLevel.name);
+        GameObject Boss = Instantiate(BossThisLevel);
+        if (BossThisLevel.name == "Boss1")
+        { 
         Boss.GetComponent<Boss1EldritchMoon>().Spawn(new Vector3(5, 1, 0), 0, 0);
         ActiveEnemies.Add(Boss);
+        }
+        else if(BossThisLevel.name == "Boss2 MushroomDoritoQueen")
+        {
+            Boss.GetComponent<Boss2Logic>().Spawn(new Vector3(5, 1, 0), 0, 0);
+            ActiveEnemies.Add(Boss);
+        }
+        else if(BossThisLevel.name == "FinalBoss")
+        {
+            Boss.GetComponent<Boss3Logic>().Spawn(new Vector3(5, 1, 0), 0, 0);
+            ActiveEnemies.Add(Boss);
+        }
+
     }
 
     private void SpawnNextWave()
@@ -173,14 +214,14 @@ public class LevelManager : MonoBehaviour
         //  {
         // ActiveEnemies.Free();
         // }
-
+        SpeechManager.GetComponent<DialogueManager>().UpdateLeftText("Wave: " + ActualWave);
         if (ActiveEnemies.Count > 0)
         {
 
 
-            for (int i = ActiveEnemies.Count; i > 0; i--)
+            for (int i = ActiveEnemies.Count-1; i > 0; i--)
             {
-                Destroy(ActiveEnemies[i]);
+                Destroy(ActiveEnemies[i].gameObject);
                 ActiveEnemies.Remove(ActiveEnemies[i]);
             }
         }
@@ -201,7 +242,7 @@ public class LevelManager : MonoBehaviour
                 {
                 case 1:
                     one = Instantiate(Enemies[0]);
-                    one.GetComponent<BaseEnemy>().Spawn(StartPos, 4, 0);
+                    one.GetComponent<BaseEnemy>().Spawn(StartPos, -4, 0);
 
                     break;
                     case 2:
@@ -209,45 +250,38 @@ public class LevelManager : MonoBehaviour
                     one.GetComponent<BaseEnemy>().Spawn(StartPos, -4f, 0f);
                     break;
                     case 3:
-                    one = Instantiate(Enemies[2]);
-                    one.GetComponent<MushroomDefender>().Spawn(StartPos, -4f, 0f);
+                    if (ShieldSpawned < MaxShieldAllowed)
+                    {
+                        one = Instantiate(Enemies[2]);
+                        one.GetComponent<MushroomDefender>().Spawn(StartPos, -4f, 0f);
+                        ShieldSpawned++;
+                    }
+                    else
+                    {
+                        one = Instantiate(Enemies[3]);
+                        one.GetComponent<BaseEnemy>().Spawn(StartPos, -3, 0f);
+                    }
                     break;
                     case 4:
                     one = Instantiate(Enemies[3]);
-                    one.GetComponent<BaseEnemy>().Spawn(StartPos, -100f, 0f);
+                    one.GetComponent<BaseEnemy>().Spawn(StartPos, -3, 0f);
                     break;
                     case 5:
+                    one = Instantiate(Enemies[4]);
+                    one.GetComponent<FrogShammonLogicScript>().Spawn(StartPos, -3, 0f);
                     break;
                     case 6:
+                    one = Instantiate(Enemies[5]);
+                    one.GetComponent<BaseEnemy>().Spawn(StartPos, -3, 0f);
                     break;
                 default:
                     one=new GameObject();
                     break;
             }
-            /*if (ActualWave%2==0)
-            {
-                 one= Instantiate(Enemies[0]);
-                one.GetComponent<BaseEnemy>().Spawn(StartPos, 4, 0);
-            }
-            else
-            {
-                 one = Instantiate(Enemies[1]);
-                one.GetComponent<BaseEnemy>().Spawn(StartPos, -4f, 0f);
-            }*/
-
+           
 
             ActiveEnemies.Add(one);
-            // GameObject one= Instantiate(Enemies[0]);
-           // Debug.Log(Enemies[0].name);
-           // Debug.Log(Enemies[1].name);
-           // GameObject two= Instantiate(Enemies[1],this.transform);
-
-           // Debug.Log(two.name + " has component? " + two.GetComponent<MoonLogicComponant>()==null);
-           // Debug.Log("the vector is " + StartPos);
-           // one.GetComponent<KamakaziEnemyLogicUnity>().Spawn(StartPos,4,0);
-           // two.GetComponent<BaseEnemy>().Spawn(StartPos, -4f, 0f);
-          //  ActiveEnemies[i] = two;
-          // ActiveEnemies[i *2  ] = one;
+            
         }
         
     }

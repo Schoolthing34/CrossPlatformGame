@@ -43,13 +43,30 @@ public class MainMenuButtonLogic : MonoBehaviour
         {
             SceneManager.LoadScene("LevelThree");
         }
+        else if(i==4)
+        {
+            SceneManager.LoadScene("IntroMenuScene");
+        }
+        else if (i == 5)
+        {
+            SceneManager.LoadScene("CreditsScene");
+        }
+
 
     }
-    private void Update()
+    private  void Update()
     {
         if(Input.GetKeyDown("escape"))
         {
-            Reset();
+            if(SceneManager.GetActiveScene().name=="CreditsScene")
+            {
+                StartLevel(4);
+            }
+            else if (SceneManager.GetActiveScene().name == "IntroMenuScene")
+            {
+                Reset();
+            }
+            
         }
         //if(Inut.GetKey(""))
     }
@@ -67,7 +84,7 @@ public class MainMenuButtonLogic : MonoBehaviour
             }
         }
     }
-    public void QuitButtonPressed()
+    public virtual void QuitButtonPressed()
     {
 #if UNITY_EDITOR
         // Application.Quit() does not work in the editor so

@@ -28,8 +28,5 @@ public class MakeCircle : BaseEnemy
 
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

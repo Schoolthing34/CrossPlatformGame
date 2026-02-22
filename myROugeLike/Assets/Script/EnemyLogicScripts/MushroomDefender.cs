@@ -30,9 +30,9 @@ public class MushroomDefender : BaseEnemy
         Start();
         this.transform.position = StartTarget;
         
-        Movement.MoveTo(-2, 0, speed);
+        Movement.MoveTo(Xdirection, 0, speed);
         SecretShield = Instantiate(Shield);
-        SecretShield.GetComponent<MakeCircle>().Spawn(this.transform.position,2.0f,1,12);
+        SecretShield.GetComponent<MakeCircle>().Spawn(this.transform.position,2.0f,1,5);
         SecretShield.SetActive(true);
         ShieldOn = true;
         base.EnemyHealth=Heath;
@@ -48,9 +48,11 @@ public class MushroomDefender : BaseEnemy
             if(ShieldBackTimer>5.0f)
             {
                 ShieldOn = true;
+
+                SecretShield.GetComponent<MakeCircle>().Spawn(this.transform.position, 2,1,5);
                 SecretShield.SetActive(true);
                // this.gameObject.GetComponent<CircleCollider2D>().isTrigger = true ;
-                Shield.GetComponent<MakeCircle>().Spawn(this.transform.position,10.0f);
+                
             }
         }
 
@@ -73,5 +75,10 @@ public class MushroomDefender : BaseEnemy
             }
 
         }
+    }
+
+    private void OnDestroy()
+    {
+        Destroy(SecretShield);
     }
 }

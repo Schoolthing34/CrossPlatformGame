@@ -14,23 +14,20 @@ public class BackgroundMovementScript : MonoBehaviour
     public GameObject EndPos;
     public float Speed = 1;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  
 
     // Update is called once per frame
     void Update()
     {
 
-        Background1.transform.position += Vector3.right * Time.deltaTime * Speed;
-        Background2.transform.position += Vector3.right * Time.deltaTime * Speed;
+        Background1.transform.position += Vector3.left * Time.deltaTime * Speed;
+        Background2.transform.position += Vector3.left * Time.deltaTime * Speed;
 
-        if(Background1.transform.position.x>EndPos.transform.position.x)
+        if(Background1.transform.position.x<EndPos.transform.position.x)
         {
             Background1.transform.position=StartPos.transform.position;
         }
-        if (Background2.transform.position.x > EndPos.transform.position.x)
+        if (Background2.transform.position.x < EndPos.transform.position.x)
         {
             Background2.transform.position = StartPos.transform.position;
         }

@@ -42,7 +42,7 @@ public class CollisionManager : MonoBehaviour
         }
         else if (IsEnemy)
         {
-            Debug.Log(this.gameObject.name + " " + collision.gameObject.name);
+            //Debug.Log(this.gameObject.name + " " + collision.gameObject.name);
             EnemyCollision(collision.gameObject);
         }
     }
@@ -77,8 +77,8 @@ public class CollisionManager : MonoBehaviour
         //Debug.Log("Hey enemy hit can be at least");
         if (other.tag=="Bullet")
         {
-            if(other.name!="Beem")
-                {
+            if((this.name != "Beem") && (this.gameObject.layer!=10))
+             {
                // Debug.Log("Hey enemy hit");
                 int damage = other.GetComponent<BulletStat>().damage;
                 gameObject.SendMessage("Damage", damage);
@@ -101,14 +101,14 @@ public class CollisionManager : MonoBehaviour
         else if (HitObject.tag == "Enemy")
         {
             //  Debug.Log("Game Over player was hit by an enemy named " + HitObject.name);
-            if (HitObject.name != "Beem")
+            if ((HitObject.name != "Beem")&&(HitObject.layer != 12))
             {
                 Destroy(HitObject);
             }
 
             Destroy(this.gameObject);
 
-            SceneManager.LoadScene("IntroMenuScene");
+            SceneManager.LoadScene("LevelOne");
 
         }
         else if(HitObject.tag =="EnemyProjectile")
@@ -118,7 +118,13 @@ public class CollisionManager : MonoBehaviour
 
             SceneManager.LoadScene("IntroMenuScene");
         }
-       
+        else if(HitObject.tag=="Lightning")
+        {
+            //Destroy(HitObject);
+            Destroy(this.gameObject);
+
+            SceneManager.LoadScene("IntroMenuScene");
+        }
 
     }
 }

@@ -7,7 +7,7 @@ public class BaseEnemy : MonoBehaviour
 {
     public int EnemyHealth;
     public int Ranking;
-
+    public bool Testing = false;
 
     virtual public void Spawn(Vector3 StartTarget, float Xdirection, float YDirection, int speed = 1, int Heath = 1, int rank = 1)
     {
@@ -20,9 +20,10 @@ public class BaseEnemy : MonoBehaviour
        // Debug.Log("Hey enemy hit");
         EnemyHealth -= damage;
 
-        if(EnemyHealth < 0 )
+        if(EnemyHealth <= 0 )
         {
             this.gameObject.SetActive(false);
+            Debug.Log("Hey this guy died"+this.gameObject.name);
             //Destroy(this.gameObject);
         }
     }
