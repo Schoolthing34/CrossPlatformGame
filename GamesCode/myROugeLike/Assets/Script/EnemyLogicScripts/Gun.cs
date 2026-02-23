@@ -87,6 +87,7 @@ public class Gun : MonoBehaviour
 
             if (CountingTimer >= shootDelayTimer)
             {
+                gameObject.SendMessage("PlayAudio", 1, SendMessageOptions.DontRequireReceiver);
                 ShootBullet(1);
                 ShootNow = false;
                 CountingTimer = 0;
@@ -96,6 +97,7 @@ public class Gun : MonoBehaviour
 
         if(ShootingMissile)
         {
+            gameObject.SendMessage("PlayAudio", 2, SendMessageOptions.DontRequireReceiver);
             ShootBullet(2);
         }
 

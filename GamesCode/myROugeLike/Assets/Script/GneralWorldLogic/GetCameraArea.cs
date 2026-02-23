@@ -21,12 +21,21 @@ public class GetMovemntArea : MonoBehaviour
 
     public Vector3 ReturnBottomLeft()
     {
+        if(cam == null) {
+            
+                cam = GetComponent<Camera>();
+            }
         Vector3 p = cam.ViewportToWorldPoint(new Vector3(0, 0, 0));
 
         return p;
     }
     public Vector3 ReturnTopRight()
     {
+        if (cam == null)
+        {
+
+            cam = GetComponent<Camera>();
+        }
         Vector3 p = cam.ViewportToWorldPoint(new Vector3(1, 1, 0));
 
         return p;

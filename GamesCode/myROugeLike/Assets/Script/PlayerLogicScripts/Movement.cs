@@ -287,7 +287,9 @@ public class Movement : MonoBehaviour
     
     public void Shoot()
     {
+
         PlayerGun.Shoot();
+        
     }
 
     public void ShootMissile()

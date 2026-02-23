@@ -152,6 +152,7 @@ public class MoonLogicComponant : BaseEnemy
 
         if(SHotDelayTimer<=0)
         {
+            gameObject.SendMessage("PlayAudio", 1, SendMessageOptions.DontRequireReceiver);
             Projectile.SetActive(true);
             ProjectileTrail.SetActive(false);
             ShotFired = true;
