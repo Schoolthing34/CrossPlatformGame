@@ -41,25 +41,25 @@ public class DialogueManager : MonoBehaviour
 
     public void UpdateLeftText(string leftText)
     {
-        LeftText.text = leftText;
+       
 
-
+        this.LeftText.SetText(leftText);
 
     }
 
 
     public void UpdateMiddleText(string MiddleText)
     {
-       this. MiddleText.text = MiddleText;
 
 
+        this.MiddleText.SetText(MiddleText);
 
     }
     public void UpdateRightText(string RightText)
     {
-        this.RightText.text = RightText;
 
 
+        this.RightText.SetText(RightText);
 
     }
 }

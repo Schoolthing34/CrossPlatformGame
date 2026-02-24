@@ -59,6 +59,7 @@ public class DialogueCall : MonoBehaviour
         }
         else if (Level == 3)
         {
+            
             if (wave == 1)
             {
                 return "Well done commander you are there city their robotic Queen is the last boss in our way\n we warn you the civilians have been indoctrinated by here\n so be careful  ";
@@ -71,10 +72,7 @@ public class DialogueCall : MonoBehaviour
             {
                 return "Commander you are near the Queen don’t fall for here tricks we believe in you ";
             }
-            else if (Boss)
-            {
-                return "Please stop I do not want this, you have kill so many,\n If you don’t leave in 30 seconds my waves of reinforcements will arrive \n so just leave";
-            }
+           
         }
         return "";
 

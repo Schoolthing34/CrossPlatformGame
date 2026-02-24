@@ -85,8 +85,11 @@ public class Boss3Logic : BaseEnemy
 
     public void DialogueBox()
     {
-
-        if((base.EnemyHealth<41)&&(base.EnemyHealth>35))
+        if (base.EnemyHealth==40)
+        {
+            SpeechManager.GetComponent<DialogueManager>().UpdateMiddleText("Please stop I do not want this, you have kill so many,\n If you don’t leave in 30 seconds my waves of reinforcements will arrive \n so just leave");
+        }
+        else if ((base.EnemyHealth<41)&&(base.EnemyHealth>35))
         {
             timerStarted = true;
             SpeechManager.GetComponent<DialogueManager>().UpdateMiddleText("I have started a timer just give up and\n leave You will not win ");

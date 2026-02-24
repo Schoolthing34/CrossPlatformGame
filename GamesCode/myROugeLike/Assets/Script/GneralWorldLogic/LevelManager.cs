@@ -228,18 +228,18 @@ public class LevelManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "LevelOne")
         {
-            Debug.Log("Pressed1");
+           // Debug.Log("Pressed1");
             SceneManager.LoadScene("LevelTwo");
         }
         else if (SceneManager.GetActiveScene().name == "LevelTwo")
         {
-            Debug.Log("Pressed2");
+           // Debug.Log("Pressed2");
             SceneManager.LoadScene("LevelThree");
         }
         else if(SceneManager.GetActiveScene().name == "LevelThree")
         {
-            Debug.Log("Pressed3");
-            SceneManager.LoadScene("IntroMenuScene");
+           // Debug.Log("Pressed3");
+            SceneManager.LoadScene("CreditsScene");
         }
     }
 
@@ -268,24 +268,25 @@ public class LevelManager : MonoBehaviour
     }
     private void SpawnBoss()
     {
-        SpeechManager.GetComponent<DialogueManager>().UpdateLeftText("BossTime : " + BossThisLevel.name);
+        SpeechManager.GetComponent<DialogueManager>().UpdateLeftText( BossThisLevel.name);
         SpeechManager.GetComponent<DialogueManager>().UpdateMiddleText(DialogueCall.GetDialogue(ActualWave, CurrentLevel, BossSpawned));
         GameObject Boss = Instantiate(BossThisLevel);
-        if (BossThisLevel.name == "Boss1")
+        if (BossThisLevel.name == "Eldritch Moon")
         { 
         Boss.GetComponent<Boss1EldritchMoon>().Spawn(new Vector3(5, 1, 0), 0, 0);
         ActiveEnemies.Add(Boss);
         }
-        else if(BossThisLevel.name == "Boss2 MushroomDoritoQueen")
+        else if(BossThisLevel.name == "MushroomBall")
         {
             Boss.GetComponent<Boss2Logic>().Spawn(new Vector3(5, 1, 0), 0, 0);
             ActiveEnemies.Add(Boss);
         }
-        else if(BossThisLevel.name == "FinalBoss")
+        else if(BossThisLevel.name == "The Queen")
         {
             Boss.GetComponent<Boss3Logic>().Spawn(new Vector3(5, 1, 0), 0, 0);
             ActiveEnemies.Add(Boss);
         }
+       
 
     }
 
@@ -298,7 +299,7 @@ public class LevelManager : MonoBehaviour
 
 
 
-
+        ShieldSpawned = 0;
 
         SpeechManager.GetComponent<DialogueManager>().UpdateLeftText("Wave: " + ActualWave);
         SpeechManager.GetComponent<DialogueManager>().UpdateMiddleText(DialogueCall.GetDialogue(ActualWave,CurrentLevel,BossSpawned));

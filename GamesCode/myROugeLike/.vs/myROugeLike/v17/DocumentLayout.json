@@ -3,11 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|c:\\users\\johnn\\documents\\github\\crossplatformgame\\gamescode\\myrougelike\\assets\\script\\gneralworldlogic\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gneralworldlogic\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\enemylogicscripts\\boss\\boss1eldritchmoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemylogicscripts\\boss\\boss1eldritchmoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\boss3logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss3logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\gneralworldlogic\\dialoguecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gneralworldlogic\\dialoguecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\gneralworldlogic\\phoneonlystuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gneralworldlogic\\phoneonlystuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\playerlogicscripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerlogicscripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|c:\\users\\johnn\\documents\\github\\crossplatformgame\\gamescode\\myrougelike\\assets\\script\\gneralworldlogic\\backgroundmovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\gneralworldlogic\\backgroundmovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gneralworldlogic\\backgroundmovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,14 +59,6 @@
       "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\frogshammonlogicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\gneralworldlogic\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gneralworldlogic\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\gneralworldlogic\\dialoguecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gneralworldlogic\\dialoguecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,14 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\guy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\guy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\boss3logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\boss3logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\doritodefenderlogicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\gneralworldlogic\\aspectbarcamerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gneralworldlogic\\aspectbarcamerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\gneralworldlogic\\phoneonlystuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gneralworldlogic\\phoneonlystuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10A90D79-5BD6-10E7-596B-079D2256DD40}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\assets\\script\\shieldrotating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,72 +118,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BackgroundMovementScript.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\BackgroundMovementScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\BackgroundMovementScript.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\BackgroundMovementScript.cs",
-              "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\BackgroundMovementScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Title": "Boss1EldritchMoon.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\Boss\\Boss1EldritchMoon.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyLogicScripts\\Boss\\Boss1EldritchMoon.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\Boss\\Boss1EldritchMoon.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyLogicScripts\\Boss\\Boss1EldritchMoon.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T08:06:25.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T17:54:07.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrogShammonLogicScript.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\FrogShammonLogicScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\FrogShammonLogicScript.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\FrogShammonLogicScript.cs",
-              "RelativeToolTip": "Assets\\Script\\FrogShammonLogicScript.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwC0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T01:18:49.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "DialogueCall.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\DialogueCall.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\DialogueCall.cs",
               "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\DialogueCall.cs",
               "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\DialogueCall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T14:07:51.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\LevelManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\LevelManager.cs",
               "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\LevelManager.cs",
               "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\LevelManager.cs",
-              "ViewState": "AgIAACABAAAAAAAAAAAuwMUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAqwBEBAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T04:40:12.059Z"
+              "WhenOpened": "2026-02-22T04:40:12.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "DialogueManager.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\DialogueManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\DialogueManager.cs",
               "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\DialogueManager.cs",
               "RelativeToolTip": "Assets\\Script\\DialogueManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAA1wD0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T02:28:21.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Gun.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\Gun.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\EnemyLogicScripts\\Gun.cs",
@@ -191,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\PlayerLogicScripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerLogicScripts\\Movement.cs",
@@ -199,12 +191,11 @@
               "RelativeToolTip": "Assets\\Script\\PlayerLogicScripts\\Movement.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAwCMBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T21:51:41.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T21:51:41.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "MoonLogicComponant.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\MoonLogicComponant.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\MoonLogicComponant.cs",
@@ -216,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "AudioScript.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\AudioScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\AudioScript.cs",
@@ -228,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Collision Manager.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\Collision Manager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\Collision Manager.cs",
@@ -241,138 +232,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetCameraArea.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\GetCameraArea.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\GetCameraArea.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\GetCameraArea.cs",
-              "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\GetCameraArea.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T01:21:14.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DoritoDefenderLogicScript.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\DoritoDefenderLogicScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\DoritoDefenderLogicScript.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\DoritoDefenderLogicScript.cs",
-              "RelativeToolTip": "Assets\\Script\\DoritoDefenderLogicScript.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T02:03:27.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AspectBarCameraScript.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\AspectBarCameraScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\AspectBarCameraScript.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\AspectBarCameraScript.cs",
-              "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\AspectBarCameraScript.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T00:59:22.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BaseEnemy.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\BaseEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\EnemyLogicScripts\\BaseEnemy.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\BaseEnemy.cs",
-              "RelativeToolTip": "Assets\\Script\\EnemyLogicScripts\\BaseEnemy.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T01:33:08.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TMP_FontAsset.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
-              "ViewState": "AgIAAAsLAAAAAAAAAAAAAB0LAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T03:16:18.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "KamakaziEnemyLogicUnity.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\KamakaziEnemyLogicUnity.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\EnemyLogicScripts\\KamakaziEnemyLogicUnity.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\KamakaziEnemyLogicUnity.cs",
-              "RelativeToolTip": "Assets\\Script\\EnemyLogicScripts\\KamakaziEnemyLogicUnity.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwEEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T01:44:29.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Guy.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\Guy.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Guy.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\Guy.cs",
-              "RelativeToolTip": "Assets\\Script\\Guy.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAewBwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T02:03:40.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Boss3Logic.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\Boss3Logic.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Boss3Logic.cs",
               "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\Boss3Logic.cs",
               "RelativeToolTip": "Assets\\Script\\Boss3Logic.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAuwHQAAACFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwFkAAADfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T02:36:19.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ShieldRotating.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\ShieldRotating.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\ShieldRotating.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\ShieldRotating.cs",
-              "RelativeToolTip": "Assets\\Script\\ShieldRotating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T18:49:57.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MushroomDefender.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\MushroomDefender.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\EnemyLogicScripts\\MushroomDefender.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\MushroomDefender.cs",
-              "RelativeToolTip": "Assets\\Script\\EnemyLogicScripts\\MushroomDefender.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T21:29:02.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MainMenuButtonLogic.cs",
-              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\MainMenuButtonLogic.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\MainMenuButtonLogic.cs",
-              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\MainMenuButtonLogic.cs",
-              "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\MainMenuButtonLogic.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T22:03:22.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "phoneOnlyStuff.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\phoneOnlyStuff.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\phoneOnlyStuff.cs",
@@ -384,7 +255,152 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrogShammonLogicScript.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\FrogShammonLogicScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\FrogShammonLogicScript.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\FrogShammonLogicScript.cs",
+              "RelativeToolTip": "Assets\\Script\\FrogShammonLogicScript.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwC0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T01:18:49.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BackgroundMovementScript.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\BackgroundMovementScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\BackgroundMovementScript.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\BackgroundMovementScript.cs",
+              "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\BackgroundMovementScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T08:06:25.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetCameraArea.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\GetCameraArea.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\GetCameraArea.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\GetCameraArea.cs",
+              "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\GetCameraArea.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T01:21:14.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DoritoDefenderLogicScript.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\DoritoDefenderLogicScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\DoritoDefenderLogicScript.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\DoritoDefenderLogicScript.cs",
+              "RelativeToolTip": "Assets\\Script\\DoritoDefenderLogicScript.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T02:03:27.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AspectBarCameraScript.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\AspectBarCameraScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\AspectBarCameraScript.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\AspectBarCameraScript.cs",
+              "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\AspectBarCameraScript.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T00:59:22.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\BaseEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyLogicScripts\\BaseEnemy.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\BaseEnemy.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyLogicScripts\\BaseEnemy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T01:33:08.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TMP_FontAsset.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
+              "ViewState": "AgIAAAsLAAAAAAAAAAAAAB0LAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T03:16:18.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KamakaziEnemyLogicUnity.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\KamakaziEnemyLogicUnity.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyLogicScripts\\KamakaziEnemyLogicUnity.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\KamakaziEnemyLogicUnity.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyLogicScripts\\KamakaziEnemyLogicUnity.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T01:44:29.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Guy.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\Guy.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Guy.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\Guy.cs",
+              "RelativeToolTip": "Assets\\Script\\Guy.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAewBwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T02:03:40.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ShieldRotating.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\ShieldRotating.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ShieldRotating.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\ShieldRotating.cs",
+              "RelativeToolTip": "Assets\\Script\\ShieldRotating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:49:57.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MushroomDefender.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\MushroomDefender.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyLogicScripts\\MushroomDefender.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\MushroomDefender.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyLogicScripts\\MushroomDefender.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T21:29:02.086Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "MainMenuButtonLogic.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\MainMenuButtonLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\MainMenuButtonLogic.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\MainMenuButtonLogic.cs",
+              "RelativeToolTip": "Assets\\Script\\GneralWorldLogic\\MainMenuButtonLogic.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T22:03:22.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "TypeOfDeviceScript.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\TypeOfDeviceScript.cs",
               "RelativeDocumentMoniker": "Assets\\TypeOfDeviceScript.cs",
@@ -396,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "RotateToPlayer.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\RotateToPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\RotateToPlayer.cs",
@@ -408,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "BasicBuletMovement.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\GneralWorldLogic\\BasicBuletMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GneralWorldLogic\\BasicBuletMovement.cs",
@@ -420,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MakeCircle.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\CrossPlatformGame\\GamesCode\\myROugeLike\\Assets\\Script\\EnemyLogicScripts\\MakeCircle.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\EnemyLogicScripts\\MakeCircle.cs",
