@@ -9,6 +9,21 @@ public class MainMenuButtonLogic : MonoBehaviour
 
     public Button[] Buttons;
 
+
+    private void Start()
+    {
+        for (int i = 0; i < Buttons.Length; i++)
+        {
+            if (i < 3)
+            {
+                Buttons[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                Buttons[i].gameObject.SetActive(false);
+            }
+        }
+    }
     public void RevealLevelOptions()
     {
         for (int i = 0; i < Buttons.Length; i++)
@@ -17,7 +32,7 @@ public class MainMenuButtonLogic : MonoBehaviour
             {
                 Buttons[i].gameObject.SetActive(false);
             }
-            else if((i>2)&&(i<6))
+            else 
             {
                 Buttons[i].gameObject.SetActive(true);
             }
@@ -70,7 +85,7 @@ public class MainMenuButtonLogic : MonoBehaviour
         }
         //if(Inut.GetKey(""))
     }
-    private void Reset()
+    public void Reset()
     {
         for (int i = 0; i < Buttons.Length; i++)
         {

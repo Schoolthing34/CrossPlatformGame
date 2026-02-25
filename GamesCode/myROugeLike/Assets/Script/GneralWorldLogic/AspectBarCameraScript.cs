@@ -5,15 +5,19 @@ using UnityEngine;
 public class AspectBarCameraScript : MonoBehaviour
 {
 
-
+    private void Update()
+    {
+        Adjust();
+    }
 
     private void Start()
     {
-        Adjust();
-
+      //  StartCoroutine("Adjust");
+        //Adjust();
+       // Coroutine Adjust = StartCoroutine(Adjust());
        // Screen.size
     }
-    public void Adjust()
+    public void  Adjust()
     {
         float targetAspect = 16.0f / 9.0f;
         float windowaspect=(float)Screen.width/(float)Screen.height;
@@ -47,6 +51,11 @@ public class AspectBarCameraScript : MonoBehaviour
 
             camera.rect = rect;
         }
+       // Debug.Log("Hey");
+       // yield return new  WaitForSeconds(3.0f);
+
+
+       // StartCoroutine("Adjust");
     }
 
 

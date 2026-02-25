@@ -23,7 +23,6 @@ public class Gun : MonoBehaviour
     private bool CurrentlyShooting = false;
     private bool ShootNow = false;
     private bool ShootingMissile=false;
-    private float MissileDelayTimer=0.5f;
     public GameObject Shield;
     private GameObject privaetShield;
     public void SetUpGun(int BulletAmount,float SHotTimer,int BulletsSpeed)

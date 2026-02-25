@@ -65,7 +65,7 @@ public class Movement : MonoBehaviour
     GetMovemntArea MovementArea;
     //Bullet Stats
    // public float BulletTimer = 0.5f;
-
+   public bool TestingAndroid;
     // Start is called before the first frame update
     void Start()
     {
@@ -84,6 +84,12 @@ public class Movement : MonoBehaviour
             WindowsUser = true;
         }
 
+
+        if(TestingAndroid)
+        {
+            AndroidUser = true;
+            WindowsUser = false;
+        }
         
          rb = GetComponent<Rigidbody2D>();
 

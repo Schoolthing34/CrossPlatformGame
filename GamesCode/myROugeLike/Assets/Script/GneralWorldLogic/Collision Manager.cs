@@ -116,10 +116,7 @@ public class CollisionManager : MonoBehaviour
     }
     private void BulletCollision(GameObject other)
     {
-        if (other.tag == "Enemy")
-        {
-            
-        }
+       
 
     }
     private void EnemyCollision(GameObject other)
