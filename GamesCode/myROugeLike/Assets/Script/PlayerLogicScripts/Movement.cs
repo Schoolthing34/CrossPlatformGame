@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
 {
     [SerializeField]
     private string _playerMoveUo;
-    [SerializeField]
+    
     public string PlayerMoveUp
     {
         

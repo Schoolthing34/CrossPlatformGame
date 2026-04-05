@@ -1,0 +1,1 @@
+C:\Users\johnn\Documents\GitHub\Attempt2\CrossPlatformGame\GamesCode\myROugeLike\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\2t3s2w6c\obj\armeabi-v7a

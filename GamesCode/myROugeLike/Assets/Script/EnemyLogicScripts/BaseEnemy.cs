@@ -25,7 +25,7 @@ public class BaseEnemy : MonoBehaviour
         if(EnemyHealth <= 0 )
         {
             this.gameObject.SetActive(false);
-            Debug.Log("Hey this guy died"+this.gameObject.name);
+           // Debug.Log("Hey this guy died"+this.gameObject.name);
             Pickups = GameObject.Find("PickupHolder");
             int Chance = Random.Range(1,100);
             if (Chance > 80)

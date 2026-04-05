@@ -1,0 +1,5 @@
+C:/Users/johnn/Documents/GitHub/Attempt2/CrossPlatformGame/GamesCode/myROugeLike/.utmp/RelWithDebInfo/2t3s2w6c/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/johnn/Documents/GitHub/Attempt2/CrossPlatformGame/GamesCode/myROugeLike/.utmp/RelWithDebInfo/2t3s2w6c/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/johnn/Documents/GitHub/Attempt2/CrossPlatformGame/GamesCode/myROugeLike/.utmp/RelWithDebInfo/2t3s2w6c/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/johnn/Documents/GitHub/Attempt2/CrossPlatformGame/GamesCode/myROugeLike/.utmp/RelWithDebInfo/2t3s2w6c/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/johnn/Documents/GitHub/Attempt2/CrossPlatformGame/GamesCode/myROugeLike/.utmp/RelWithDebInfo/2t3s2w6c/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

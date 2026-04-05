@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GameAnalyticsSDK;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -63,6 +64,7 @@ public class LevelManager : MonoBehaviour
     }
     public void StartLevel(int Level,int LevelTimer)
     {
+        GameAnalytics.StartSession();
         Button1.SetActive(false);
         Button2.SetActive(false);
         LevelOn = 0.00f;

@@ -1,0 +1,5 @@
+# ninja log v5
+3	143	7961662262076738	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	f947c5aed015de16
+143	277	7961662263372790	C:/Users/johnn/Documents/GitHub/Attempt2/CrossPlatformGame/GamesCode/myROugeLike/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2t3s2w6c/obj/arm64-v8a/libswappywrapper.so	b231e8284ec416ea
+2	164	7961665506465764	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	f947c5aed015de16
+164	309	7961665507831206	C:/Users/johnn/Documents/GitHub/Attempt2/CrossPlatformGame/GamesCode/myROugeLike/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2t3s2w6c/obj/arm64-v8a/libswappywrapper.so	b231e8284ec416ea

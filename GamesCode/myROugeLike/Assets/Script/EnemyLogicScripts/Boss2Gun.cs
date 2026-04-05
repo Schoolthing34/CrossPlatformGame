@@ -94,7 +94,7 @@ public class Boss2Gun : MonoBehaviour
                 }
                 else
                 {
-                    Bullets[i].GetComponent<Rigidbody2D>().velocity = Bullets[i].transform.right * BulletSpeed;
+                    Bullets[i].GetComponent<Rigidbody2D>().linearVelocity = Bullets[i].transform.right * BulletSpeed;
 
                 }
                 //  rb = GetComponent<Rigidbody>();

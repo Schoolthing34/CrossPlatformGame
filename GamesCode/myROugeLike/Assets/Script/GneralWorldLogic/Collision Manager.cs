@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GameAnalyticsSDK;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -186,7 +187,7 @@ public class CollisionManager : MonoBehaviour
             }
 
             Destroy(this.gameObject);
-
+            GameAnalytics.EndSession();
             SceneManager.LoadScene("IntroMenuScene");
 
         }
